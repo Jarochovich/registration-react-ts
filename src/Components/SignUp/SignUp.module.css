@@ -1,0 +1,17 @@
+.Signup {
+ display: flex;
+ flex-direction: column;
+}
+
+.form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}

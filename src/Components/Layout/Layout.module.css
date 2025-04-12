@@ -1,0 +1,18 @@
+.wrapper {
+    margin: 0;
+    padding: 35px;
+    box-sizing: border-box;
+    border: 1px solid #e2e2e2;
+    border-radius: 7px;
+    height: 70vh;
+    width: 60vh;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.20);
+    
+}
+
+.content {
+
+    
+}
+
+
