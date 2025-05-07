@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import Layout from './Components/Layout/Layout';
 import { HashRouter, Routes, Route } from 'react-router-dom';
@@ -12,6 +11,7 @@ function App() {
       <HashRouter>
         <Routes>
           <Route path='/' element={<Layout />}>
+            <Route index element ={<SignUp />}/>
               <Route path='/sign-up' element ={<SignUp />}/>
               <Route path='/sign-in' element = {<SignIn />}/>
               <Route path='/reset-password' element = {<ResetPass />}/>

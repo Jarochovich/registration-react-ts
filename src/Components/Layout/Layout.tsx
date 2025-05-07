@@ -10,7 +10,6 @@ function Layout(props:any) {
                 <Outlet/>
             </main>
             
-            
         </div>
     );
 }

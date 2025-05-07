@@ -8,7 +8,7 @@ function Button(props:any) {
         onClick={(event) => {
         } }
         >
-            Отправить
+            {props.children}
         </button>
     );
 }

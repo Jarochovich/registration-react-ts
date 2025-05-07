@@ -62,7 +62,7 @@ function ResetPass(props:any) {
                 description = {'Введите email'} 
                 actions = {validationEmail}/>
 
-                <Button />
+                <Button>Сбросить пароль</Button>
             </form>
 
             <ul className={classes.links}>

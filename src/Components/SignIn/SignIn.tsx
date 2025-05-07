@@ -7,6 +7,7 @@ import Success from '../Success/Success';
 
 function SignIn(props:any) {
 
+    // Состояние для модального окна
     const [active, setActive] = useState(false);
 
     const regExpEmail = /^[^\s@]+@[^\s@]{2,5}\.[^\s@]{2,3}$/;
@@ -117,7 +118,7 @@ function SignIn(props:any) {
                  isPass = {true} 
                  actions = {validations.validatePass}/>
                
-                <Button />
+                <Button>Войти</Button>
             </form>
 
              <ul className={classes.links}>
@@ -127,7 +128,7 @@ function SignIn(props:any) {
 
             <Success active={active} setActive = {setActive}>
                 <h3>Вы успешно вошли в аккаунт!</h3>
-                <p>Позравляем</p>
+                <p>Поздравляем</p>
             </Success>
         </div>
     );

@@ -184,7 +184,7 @@ function SignUp(props:any) {
                 isPass = {true} 
                 actions = {validations.overlapPass}/>
                 
-                <Button />
+                <Button>Регистрация</Button>
             </form>
 
             <ul className={classes.links}>
@@ -192,7 +192,7 @@ function SignUp(props:any) {
             </ul>
 
             <Success active={active} setActive = {setActive}>
-                <h3>Вы успешно зарегестрировались!</h3>
+                <h3>Вы успешно зарегистрировались!</h3>
                 <p>Поздравляем</p>
             </Success>
         </div>
