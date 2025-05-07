@@ -8,7 +8,6 @@ import ResetPass from './Components/ResetPass/ResetPass';
 function App() {
 
   return (
-      <HashRouter>
         <Routes>
           <Route path='/' element={<Layout />}>
             <Route index element ={<SignUp />}/>
@@ -18,7 +17,6 @@ function App() {
               <Route path='*' element={<h1>Not found page</h1>} />
           </Route>
         </Routes>
-    </HashRouter>
   );
 }
 
